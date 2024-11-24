@@ -12,8 +12,6 @@ This repository interacts with the GitHub API using Python and the `httpx` libra
         ├── settings.py    # Contains environment variable management for the GitHub API token.
         ├── .env.example   # Example .env file for setting up GitHub API token.
         ├── main.py        # The main entry point to run the application.
-    /tests
-        ├── test_handlers.py   # Unit tests for the handler functions.
     README.md                  # Documentation for the repository.
 ```
 
