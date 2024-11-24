@@ -14,7 +14,7 @@ def authenticate(s: httpx.Client) -> bool:
         logger.info(f"Failed request with code: [{r.status_code}]. Response: [{r.text}]")
         return False
     
-    logger.info(f"Successly auth. Your account: [{r.json()["login"]}]")
+    logger.info(f"Successly auth. Your account: [{r.json()['login']}]")
     return True
 
 
